@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+	display: block;
+}
+.logo{
+margin: 0 auto;
+display:inline-block;
+padding-top: 20px;
+clear: left;
+}
+header {
+    background-color:#5d6280;
+}
+nav ul {
+	list-style-type: none;
+    font-size: 22px;
+    margin-top: 0px;
+    text-align:center;
+    padding-top: 25px;
+    padding-right:15px;
+    padding-bottom:30px;
+    background-color: #5d6280;
+}
+nav li {
+    text-decoration: none;
+    display: inline;
+    margin: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+nav a:link {
+    color:white;
+} 
+nav a:visited {
+    color:white;
+}
+nav a:hover {
+    color:white;
+}
+nav a:active {
+    color:white;
+}
+main {
+	max-width:1200px;
+    margin: 150px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    padding-right:30px;
+    padding-bottom: 30px;
+    float: left;
+}
+footer {
+    clear: left;
+	color:white;
+    background-color: #5d6280;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+}
+.icons {
+    padding: 5px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 3em;
+    color:black;
+    text-align: center;
+}
+.fa {
+    color: white;
+}
+h5 {
+    size: 10px;
+    font-family: 'Oswald', sans-serif,;
+    font-style: italic;
+}
+h6 { 
+    size: 10px;
+    font-family: 'Oswald', sans-serif,;
+}
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile {
+	display:none;
+}
+@media only screen and (max-width: 400px) {
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:block;
+	}
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
